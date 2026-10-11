@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+audit-report.json
+package.json.backup
+package-lock.json.backup
+
+tsconfig.tsbuildinfo

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-paper text-ink antialiased; font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif; }
+input, select, textarea { @apply rounded-md border border-ink/20 bg-white px-3 py-2 text-sm outline-none focus:border-brand focus:ring-2 focus:ring-brand/30; }
+.btn { @apply rounded-md bg-brand px-3 py-2 text-sm font-medium text-white hover:bg-brand/90 focus-visible:ring-2 focus-visible:ring-brand/40 disabled:opacity-50; }
+.btn-ghost { @apply rounded-md border border-ink/20 px-2 py-1 text-xs hover:bg-ink/5; }
